@@ -5,7 +5,7 @@
 }
 
 header {
-	background-image: url(../Photo1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Photo1.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
@@ -51,4 +51,38 @@ ul li a:hover {
 .main {
 	max-width: 1200px;
 	margin: auto; 
+}
+
+.tittle {
+
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.tittle h1 {
+	color: #ffa500;
+	font-family: serif;
+	font-size: 50px;
+}
+
+.button {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+}
+
+.btn {
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	color: #fff;
+	transition: 0.6s ease;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #ffa500;
 }
