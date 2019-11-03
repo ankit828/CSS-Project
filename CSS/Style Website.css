@@ -5,7 +5,7 @@
 }
 
 header {
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Photo1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
@@ -25,7 +25,7 @@ ul li {
 
 ul li.active a {
 	background-color: #fff;
-	color: #ffa500;
+	color: #000;
 }
 
 ul li a {
@@ -38,14 +38,14 @@ ul li a {
 
 ul li a:hover {
 	background-color: #fff;
-	color: #ffa500;
+	color: #000;
 }
 
 .logo img {
 	float: left;
 	width: 150px;
 	height: auto;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .main {
@@ -62,9 +62,9 @@ ul li a:hover {
 }
 
 .tittle h1 {
-	color: #ffa500;
+	color: #FFF;
 	font-family: serif;
-	font-size: 50px;
+	font-size: 55px;
 }
 
 .button {
@@ -84,5 +84,5 @@ ul li a:hover {
 
 .btn:hover {
 	background-color: #fff;
-	color: #ffa500;
+	color: #000;
 }
